@@ -2,12 +2,18 @@
 Ecommerce application using Express.js
 
 Setup an express server and create the below endpoints with Authentication and Authorization middleware.
-Routes
+
+### Routes
+
 /product - create
+
 /product - delete
+
 /orders - get
+
 /admin/manage – get
 
+### Data:
 users = [
   { id: 1, name: 'Alice', role: 'admin' },
   { id: 2, name: 'Bob', role: 'vendor' },
